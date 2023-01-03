@@ -5,13 +5,14 @@ body {
 }
 
 body {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Jura', 'Helvetica', 'Arial', 'sans-serif';
 }
 
-a {
-  color: #3b37fd;
+a, li a {
+  color: red;
   transition: all .35s;
 }
+
 
 a:hover, a:focus {
   color: red;
@@ -23,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Anton", sans-serif;
+  font-family: "Jura", sans-serif;
 }
 p {
   font-family: "Jura", sans-serif;
@@ -31,17 +32,21 @@ p {
 
 /* Navigation navbar General */
 .customNav {
-  position: fixed;
+  position: relative;
   width: 100%;
   background-color: white;
+  
 }
+.nav-link
+.navbar-brand,
 .navbar-nav {
   margin-left: auto;
   margin-right: 0 !important;
 }
 .navbar-brand img {
   padding-right: 0px;
-  width: 100px;
+  width: 80px;
+  
 }
 
 /* Navigation dropdown menu */
@@ -49,9 +54,10 @@ p {
   background-color: transparent !important;
   background-size: cover;
 }
+
 .dropdown-item:focus,
 .dropdown-item:hover {
-  color: red;
+  color: red !important;
   text-decoration: underline;
   background: white;
 }
@@ -67,16 +73,31 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+}
+.name-space {
+  font-size: 64px;
+  font-weight: bold;
+}
+.lead {
+  font-size: 26px;
+  font-weight: 900;
+
+}
+.jumbotron .btn {
+  color: red;
+  font-weight: 900;
 }
 
 /* Jumbotron copy */
 .jumbo-container {
-    margin-top: 100px;
+    margin-top: 150px;
     width: 70%;
     min-width: 500px;
     max-width: 700px;
-    color: white;
+    color: rgb(231, 29, 22);
     text-align: center;
+   
   }
 /* Cards */
 .content {
@@ -92,7 +113,9 @@ p {
     text-align: center;
     margin-top: 20px;
     
+    
   }
   .card {
     margin: 0 auto;
+    border-radius: 25%;
   }
