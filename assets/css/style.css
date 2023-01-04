@@ -96,8 +96,8 @@ p {
 
 }
 .jumbotron .btn {
-  width: 200px;
-  background-color: rgb(0, 0, 2);
+  width: 300px;
+  background-color: rgb(103, 103, 170);
   border: 2px solid red;
   color: red;
   font-size: 20px;
@@ -113,7 +113,7 @@ p {
     min-width: 300px;
     max-width: 700px;
     color: rgb(231, 29, 22);
-    align-content:;   
+    align-content: center;   
   }
 /* Skills Section Cards */
 .content {
@@ -121,6 +121,7 @@ p {
   }
   .sectionHeading {
     margin-left: 30px;
+    text-decoration: underline;
   }
   .skillsGained {
     padding: 0px 30px 30px 30px;
