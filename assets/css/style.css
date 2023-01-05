@@ -1,3 +1,13 @@
+/*  purple color is rgb(134, 36, 247) green color is color:rgb(11, 221, 29);
+
+
+*/
+
+
+:root { 
+  --dark-color: rgb(0, 0, 0, 0.6);
+}
+
 html,
 body {
   width: 100%;
@@ -93,13 +103,14 @@ p {
 .lead {
   font-size: 26px;
   font-weight: 900;
+  color: rgb(134, 36, 247);
 
 }
 .jumbotron .btn {
-  width: 300px;
-  background-color: rgb(103, 103, 170);
-  border: 2px solid red;
-  color: red;
+  width: 250px;
+  background-color: rgb(11, 221, 29);
+  border: 2px solid  rgb(134, 36, 247);
+  color: rgb(75, 69, 69);
   font-size: 20px;
   font-weight: 900;
 }
@@ -108,12 +119,16 @@ p {
 .jumbo-container {
     display: flex;
     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 0px;
     width: 50%;
     min-width: 300px;
     max-width: 700px;
-    color: rgb(231, 29, 22);
-    align-content: center;   
+    color:rgb(11, 221, 29);
+    background-color: var(--dark-color);  
+    padding: 80px 40px; 
   }
 /* Skills Section Cards */
 .content {
@@ -133,6 +148,9 @@ p {
   .card {
     margin: 0 auto;
     border-radius: 25%;
+  }
+  .card p {
+    margin-left: 20px;
   }
   /*  Work Section */
   .project-card {
