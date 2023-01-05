@@ -128,7 +128,7 @@ p {
     max-width: 700px;
     color:rgb(11, 221, 29);
     background-color: var(--dark-color);  
-    padding: 80px 40px; 
+    padding: 40px 40px; 
   }
 /* Skills Section Cards */
 .content {
@@ -146,16 +146,19 @@ p {
     margin-top: 0px auto;  
   }
   .card {
-    margin: 0 auto;
+    margin: 10px auto;
     border-radius: 25%;
   }
-  .card p {
-    margin-left: 20px;
-  }
   /*  Work Section */
-  .project-card {
-    margin: 10px ;
+  .container-fluid {
+    position: relative;
+    justify-content: center;
+    align-items: center;
   }
+  .project-card {
+    margin: 0px ;
+  }
+  /* About me section /*
 
 
 
@@ -166,6 +169,8 @@ p {
     margin-bottom: 10px 10px;
   }
   .formContainer {
-    padding: 10px;
+    padding: 20px;
+    margin: 10px;
     border: 1px solid black;
   }
+
